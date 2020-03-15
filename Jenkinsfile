@@ -23,5 +23,6 @@ pipeline {
 
      // docker.image("${dockerImageTag}").push()
              }
+	}
     }
 }
