@@ -12,7 +12,7 @@ pipeline {
       
       // deploy docker image to nexus
 
-      echo "Docker Image Tag Name: ${dockerImageTag}"
+     // echo "Docker Image Tag Name: ${dockerImageTag}"
       
       //withCredentials([usernamePassword(credentialsId: 'ecr', passwordVariable: 'pass', usernameVariable: 'user')]) {
        
